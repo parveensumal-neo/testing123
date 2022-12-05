@@ -1,0 +1,13 @@
+{
+  "name": "testing123",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/parveensumal-neo/testing123",
+    "ssh": "git@github.com:parveensumal-neo/testing123.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
