@@ -4,13 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js --port=3000"
+        "start": "node index.js --port=3000"
     },
     "type": "module",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@prisma/client": "^4.7.1",
+        "bcrypt": "^5.1.0",
         "express": "^4.17.3"
     }
-  }
+}
