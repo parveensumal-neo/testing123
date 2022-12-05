@@ -14,5 +14,8 @@
         "@prisma/client": "^4.7.1",
         "bcrypt": "^5.1.0",
         "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "prisma": "^4.7.1"
     }
 }
